@@ -1,0 +1,17 @@
+{
+  "name": "smart-plug",
+  "version": "1.0.0",
+  "description": "Control TP-link smart plug via HTTP",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "micro": "^9.3.4",
+    "tplink-smarthome-api": "^1.2.0"
+  },
+  "scripts": {
+    "start": "micro-dev"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  }
+}

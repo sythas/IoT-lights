@@ -1,0 +1,16 @@
+{
+  "name": "relay",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "gpio": "^0.2.10",
+    "micro": "^9.3.4"
+  },
+  "scripts": {
+    "start": "micro-dev"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  }
+}
